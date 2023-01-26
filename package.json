@@ -1,17 +1,25 @@
 {
-  "name": "booking-a-table-on-the-little-lemon-website",
+  "name": "restaurant-little-lemon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.16",
+    "@chakra-ui/react": "^2.4.8",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/karla": "^4.5.10",
+    "@fontsource/markazi-text": "^4.5.11",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/user-event": "^14.4.3",
     "formik": "^2.2.9",
+    "framer-motion": "^6.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.6.1",
+    "react-icons": "^3.11.0",
+    "react-router-dom": "^6.6.2",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
-    "react-toastify": "^9.1.1",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
   },
@@ -22,10 +30,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -38,8 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.2.4"
   }
 }
