@@ -1,0 +1,369 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  background-repeat: no-repeat;
+  padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  position: inherit;
+  
+}
+
+
+
+header>img {
+  float: left;
+  height: 4rem;
+  object-fit: contain;
+
+}
+
+.booking-btn{
+   background: gold;
+   color:black;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 700;
+   padding:0.5rem;
+   border-radius: 0.75rem;
+   
+    
+}
+.booking-btn:active{
+  background: grey;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.booking-btn:hover{
+    animation: blinker 2s infinite linear;
+}
+nav {
+  background-color: white;
+  padding: 1.5em;
+  margin: auto;
+font-weight: 700;
+
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding-left: 7em;
+  
+}
+
+
+
+nav li>a {
+  padding: 2rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(35, 104, 66);
+  font-weight: 700;
+
+}
+
+nav li>a:hover {
+  color: gold;
+}
+
+nav li {
+  list-style: none;
+
+}
+
+main {
+  margin-top: 1rem;
+
+}
+.content>h2{
+  text-align: center;
+}
+main .main-ad {  
+  background-color: rgb(73, 94, 87);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 5rem;
+  max-width: 70rem;
+  border-radius: 1rem;
+  margin: auto;
+  padding: 1rem;
+
+
+}
+
+
+
+main h1 {
+  color: gold;
+  padding: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  font-weight: 700;
+
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.25;
+  }
+}
+
+main h2 {
+  color: black;
+  font-weight: 700;
+  
+  padding: 0.5rem;
+}
+
+.main-p {
+  margin-left: 0.5em;
+  margin-top: -1em;
+}
+
+.info {
+  color: white;
+  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0.5rem;
+
+}
+.descriptions {
+  color: rgb(73, 94, 87);
+  width: 200px;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.content {
+  background: rgba(163, 163, 163, 0.4);
+  border-radius: 2rem;
+  overflow: hidden;
+  width: 250px;
+  z-index: 1;
+  padding: 0in;
+}
+
+.frontpg {
+  margin-left: 50em;
+  margin-top: -6.5em;
+}
+
+.specials {
+ margin-bottom: -1em;
+ margin-right: -10em;
+ color: black;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: xx-large;
+}
+
+.content > .booking-btn {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 3em;
+}
+
+.content img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 0.25em;
+  margin-top: -1.2in;
+  z-index: 0;
+  margin-bottom: -1.25in;
+}
+
+article {
+  margin: 3rem;
+}
+
+article p {
+  width: 20rem;
+}
+
+main section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+
+
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.form-removal{
+position: absolute;
+left:65vw;
+font-size:1.2rem;
+cursor: pointer;
+color:white
+}
+.form-removal:active {
+  color: grey;
+
+}
+.booking-form {
+  background: rgba(163, 163, 163, 0.4);
+  text-align: center;
+  width:40vw;
+  margin: auto;
+  padding:2rem;
+  
+  border-radius: 0.5rem;
+}
+.form-control{
+  padding:0.5rem;
+  width:25vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 0.5rem;
+  border: none;
+}
+.book {
+  font-weight: 700;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:black;
+}
+label{
+  padding:0.2rem;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:black;
+}
+.form-group{
+  padding:0.5rem
+}
+.copyright {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  border-top: 2px solid palegoldenrod;
+  padding: 1rem;
+}
+
+.Rigatoni {
+  margin-left: 2em;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 0.75em;
+}
+
+.RigPrice {
+  margin-left: 10em;
+  margin-top: -1.5em;
+  color: chocolate;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+}
+
+.chicago { 
+  margin-top: -1.25em;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  font-size: x-large;
+  margin-left: 0.25em;
+}
+
+@media (max-width:768px) {
+
+  .booking-form {
+    background: rgba(163, 163, 163, 0.4);
+    text-align: center;
+    width:80vw;
+    margin: auto;
+    padding:2rem;
+    
+    border-radius: 0.5rem;
+  }
+
+.logo {
+  margin-top: 2.5em;
+  height: 100px;
+  object-fit: contain;
+}
+
+  .content > .booking-btn {
+	
+    margin-left: 3.5em;
+  
+  }
+
+.frontpg {
+  display: none;
+}
+
+
+  .specials {
+    margin-bottom: -1em;
+    margin-right: -1em;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+   }
+
+  header {
+    padding: 1rem;
+  }
+
+  header>img {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 8rem;
+    width: 10rem;
+
+  }
+.des{
+  color: red !important;
+}
+  main div {
+    margin: 1rem;
+  }
+
+  nav {
+    margin: 1rem;
+    max-width: fit-content;
+    margin: auto;
+    background-color: ghostwhite;
+    color: black;
+
+
+  }
+
+  nav ul li>a {
+    color: grey
+  }
+
+  main h1 {
+    text-align: center;
+  }
+}
